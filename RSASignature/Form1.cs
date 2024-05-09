@@ -7,6 +7,8 @@ namespace RSASignature
     {
 
         private ClientServer server;
+
+        RSAParameters PubKey;
         public Form1()
         {
             InitializeComponent();
@@ -60,6 +62,10 @@ namespace RSASignature
                 Console.WriteLine("The data was not signed or verified");
             }
         }
+        private void SendData_Click(object sender, EventArgs e)
+        {
+            server.SendObject(PubKey);
+        }
         private void Button1_Click(object sender, EventArgs e)
         {
             try
@@ -82,7 +88,7 @@ namespace RSASignature
                 // However, you do not need to export the private key
                 // for verification.
                 RSAParameters PrivKey = RSAalg.ExportParameters(true);
-                RSAParameters PubKey = RSAalg.ExportParameters(false);
+                PubKey = RSAalg.ExportParameters(false);
 
                 // Hash and sign the data.
                 signedData = HashAndSignBytes(originalData, PrivKey);

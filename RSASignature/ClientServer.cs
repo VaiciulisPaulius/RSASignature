@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace RSASignature
 {
@@ -35,14 +36,18 @@ namespace RSASignature
             return false;
         }
 
-        public async Task SendAsync(string message)
+        public void SendObject(TcpClient client, object obj)
         {
-            if (client == null || !client.Connected)
-                throw new InvalidOperationException("Client is not connected.");
-
-            NetworkStream stream = client.GetStream();
-            byte[] data = Encoding.ASCII.GetBytes(message);
-            await stream.WriteAsync(data, 0, data.Length);
+            try
+            {
+                NetworkStream stream = client.GetStream();
+                BinaryFormatter formatter = new BinaryFormatter();
+                formatter.Serialize(stream, obj);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error sending object: " + ex.Message);
+            }
         }
 
         public void Disconnect()
