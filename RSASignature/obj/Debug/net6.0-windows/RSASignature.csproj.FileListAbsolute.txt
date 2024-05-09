@@ -1,0 +1,16 @@
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\bin\Debug\net6.0-windows\RSASignature.exe
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\bin\Debug\net6.0-windows\RSASignature.deps.json
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\bin\Debug\net6.0-windows\RSASignature.runtimeconfig.json
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\bin\Debug\net6.0-windows\RSASignature.dll
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\bin\Debug\net6.0-windows\RSASignature.pdb
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.Form1.resources
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.csproj.GenerateResource.cache
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.AssemblyInfoInputs.cache
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.AssemblyInfo.cs
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.csproj.CoreCompileInputs.cache
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.dll
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\refint\RSASignature.dll
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.pdb
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\RSASignature.genruntimeconfig.cache
+C:\Users\Paulius\source\repos\RSASignature\RSASignature\obj\Debug\net6.0-windows\ref\RSASignature.dll
